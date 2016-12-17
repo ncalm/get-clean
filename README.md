@@ -1,5 +1,25 @@
 # Peer-reviewed assignment for Coursera course _Getting and Cleaning Data_
 
+The original assignment instructions are repeated at the bottom of this file for reference.
+
+This repository contains run_analysis.R, which is heavily annotated and assumes the user has downloaded the directory 'UCI HAR Dataset' (included in this repository) and has set his or her working directory to be that directory. 
+
+The run_analysis.R script completes the steps listed at the bottom of the original instructions, i.e.
+
+> - Merges the training and the test sets to create one data set.
+> - Extracts only the measurements on the mean and standard deviation for each measurement.
+> - Uses descriptive activity names to name the activities in the data set
+> - Appropriately labels the data set with descriptive variable names.
+> - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+When the script is complete, it will create (or refresh, if they already exist), two files in the working directory:
+
+1. tidy.txt, which is a file of 10299 observations of 69 variables, and
+2. summary_tidy.txt, which calculates the average of mean() and std() measurements by subjectcode and activity
+
+More detail can be found in CodeBook.md in this repository. 
+
+
 > The purpose of this repository is to demonstrate ability to collect, work with, and clean a data set.
 > 
 > ## Review criteria
