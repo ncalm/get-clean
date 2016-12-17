@@ -20,6 +20,8 @@ When the script is complete, it will create (or refresh, if they already exist),
 More detail can be found in CodeBook.md in this repository. 
 
 
+What follows are the original assignment instructions, included here for reference:
+
 > The purpose of this repository is to demonstrate ability to collect, work with, and clean a data set.
 > 
 > ## Review criteria
