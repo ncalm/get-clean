@@ -1,5 +1,7 @@
 # Code Book for _Getting and Cleaning Data_ peer-reviewed assignment
 
+All transformations and work done on data files are present as annotations in the script run_analysis.R.
+
 This code book describes the variables in the resulting data file *tidy_summary.txt*. Detail regarding the variable names can be found below.
 
 - activity - The activity being performed when the measurement was made, valid values are described below.
