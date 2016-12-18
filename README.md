@@ -12,10 +12,9 @@ The run_analysis.R script completes the steps listed at the bottom of the origin
 > - Appropriately labels the data set with descriptive variable names.
 > - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-When the script is complete, it will create (or refresh, if they already exist), two files in the working directory:
+When the script is complete, it will create this file in the working directory (which should be 'UCI HAR Dataset'):
 
-1. tidy.txt, which is a file containing the combined 10299 observations of 69 variables before summary, and
-2. tidy_summary.txt, which calculates the average of mean() and std() measurements by subjectcode and activity
+- tidy_summary.txt, which calculates the average of various mean() and std() measurements by subjectcode and activity
 
 More detail can be found in CodeBook.md in this repository. 
 
