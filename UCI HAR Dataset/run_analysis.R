@@ -154,7 +154,4 @@ dat2 <- group_by(dat2,activity,subjectcode)
 datout <- summarize_each(dat2,"mean",2:67)
 
 ## We can then write the summary table to the current working directory:
-write.table(datout,"tidy_summary.txt")
-
-## And the whole tidy file:
-write.table(dat2,"tidy.txt")
+write.table(datout,"tidy_summary.txt",row.names = FALSE)
