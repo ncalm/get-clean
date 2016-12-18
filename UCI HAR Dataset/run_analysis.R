@@ -102,9 +102,9 @@ dat$features <- trimws(dat$features)
 ## column per variable.
 ## We do this with tidyr's separate function, using the featurename above as the 
 ## 'into' argument. We separate on one or more space and tell the function to 
-## drop additional values of the separator if they exist. 'drop' is the default
-## behavior for the 'extra' argument, but it's more readable if we specfiy it
-## explicitly.
+## drop additional values of the separator if they exist. We instruct the
+## function to explicitly drop multiple adjacent separators, to avoid 
+## unwelcome warnings given by the default value for extra (i.e. 'warn')
 dat <- separate(dat,features,ft$featurename,sep = "\\s+",extra="drop")
 
 ## Now there's a single variable for each feature, we can select only the 
