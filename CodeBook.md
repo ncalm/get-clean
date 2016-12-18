@@ -1,0 +1,82 @@
+# Code Book for _Getting and Cleaning Data_ peer-reviewed assignment
+
+This code book describes the variables in the resulting data files *tidy.txt* and *tidy_summary.txt*
+
+- activity
+- subjectcode
+- tBodyAccmeanX
+- tBodyAccmeanY
+- tBodyAccmeanZ
+- tBodyAccstdX
+- tBodyAccstdY
+- tBodyAccstdZ
+- tGravityAccmeanX
+- tGravityAccmeanY
+- tGravityAccmeanZ
+- tGravityAccstdX
+- tGravityAccstdY
+- tGravityAccstdZ
+- tBodyAccJerkmeanX
+- tBodyAccJerkmeanY
+- tBodyAccJerkmeanZ
+- tBodyAccJerkstdX
+- tBodyAccJerkstdY
+- tBodyAccJerkstdZ
+- tBodyGyromeanX
+- tBodyGyromeanY
+- tBodyGyromeanZ
+- tBodyGyrostdX
+- tBodyGyrostdY
+- tBodyGyrostdZ
+- tBodyGyroJerkmeanX
+- tBodyGyroJerkmeanY
+- tBodyGyroJerkmeanZ
+- tBodyGyroJerkstdX
+- tBodyGyroJerkstdY
+- tBodyGyroJerkstdZ
+- tBodyAccMagmean
+- tBodyAccMagstd
+- tGravityAccMagmean
+- tGravityAccMagstd
+- tBodyAccJerkMagmean
+- tBodyAccJerkMagstd
+- tBodyGyroMagmean
+- tBodyGyroMagstd
+- tBodyGyroJerkMagmean
+- tBodyGyroJerkMagstd
+- fBodyAccmeanX
+- fBodyAccmeanY
+- fBodyAccmeanZ
+- fBodyAccstdX
+- fBodyAccstdY
+- fBodyAccstdZ
+- fBodyAccJerkmeanX
+- fBodyAccJerkmeanY
+- fBodyAccJerkmeanZ
+- fBodyAccJerkstdX
+- fBodyAccJerkstdY
+- fBodyAccJerkstdZ
+- fBodyGyromeanX
+- fBodyGyromeanY
+- fBodyGyromeanZ
+- fBodyGyrostdX
+- fBodyGyrostdY
+- fBodyGyrostdZ
+- fBodyAccMagmean
+- fBodyAccMagstd
+- fBodyBodyAccJerkMagmean
+- fBodyBodyAccJerkMagstd
+- fBodyBodyGyroMagmean
+- fBodyBodyGyroMagstd
+- fBodyBodyGyroJerkMagmean
+- fBodyBodyGyroJerkMagstd
+
+
+## Valid values for _activity_
+
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
