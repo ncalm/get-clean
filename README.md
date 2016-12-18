@@ -15,7 +15,7 @@ The run_analysis.R script completes the steps listed at the bottom of the origin
 When the script is complete, it will create (or refresh, if they already exist), two files in the working directory:
 
 1. tidy.txt, which is a file of 10299 observations of 69 variables, and
-2. summary_tidy.txt, which calculates the average of mean() and std() measurements by subjectcode and activity
+2. tidy_summary.txt, which calculates the average of mean() and std() measurements by subjectcode and activity
 
 More detail can be found in CodeBook.md in this repository. 
 
